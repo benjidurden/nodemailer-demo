@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Hello! Welcome to <%= title %>! Please send Brian a message.</h1>
+    <form class = "contactForm">
+       <input type = "text" placeholder = "Your name, please." class = "messageName" name = "name" />
+       <input type = "text" placeholder = "Email address?" class = "messageEmail" name = "email" />
+       <textare placeholder = "Enter your message" name = "message" class = "messageBody" >
+       </textarea>
+       <button type = "submit" name = "submit" class = "messageButton">
+       Submit
+       </button>
+    </form>
+  <script src = "/javascripts/message.js" />
+  </body>
+</html>
